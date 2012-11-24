@@ -1,0 +1,22 @@
+
+  "Window": {
+    "backgroundColor": "red",
+    "children": [
+      { 
+        "Button": {
+          "title": "did this work",
+          "top" : 0,
+          "height": 300,
+          "id": "testButton"
+        }
+      },
+      {
+        "Button": {
+        "title": "this one should not work",
+        "bottom" : 0,
+        "height": 300
+        }
+      }
+    ]
+  }
+}

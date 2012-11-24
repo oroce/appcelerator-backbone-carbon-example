@@ -1,0 +1,31 @@
+{
+	"TabGroup": {
+		"backgroundColor": "red",
+		"tabs": [{
+		"Tab": {
+				"title": "two",
+				"id": "listing-tab",
+				"window": {
+						"backgroundColor": "green",
+						"children": [{
+								"iOSToolbar": {
+										"top": 0,
+										"height": 48,
+										"barColor": "black",
+										"items": [{
+												"Button": {
+														"title": "fetch again",
+														"id": "refetchButton"
+													}
+											}]
+								}
+						}, {
+							"TableView": {
+									"id":"tweetTableView"
+							}
+						}]
+				}
+		}
+}]
+	}
+}

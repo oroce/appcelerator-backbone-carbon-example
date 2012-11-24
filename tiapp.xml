@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.2.GA</sdk-version>
+    <id>com.oroce.backbone.carbon</id>
+    <name>toddler-mobile</name>
+    <version>1.0</version>
+    <publisher>artanis</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by oroce</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>c581ccd4-60b3-4dda-a973-566d6ad80301</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <modules>
+        <module platform="iphone" version="0.1">appersonlabs.carbon</module>
+        <module platform="android" version="0.1">appersonlabs.carbon</module>
+        <module platform="commonjs" version="1.4.2">tipm-underscore</module>
+        <module platform="commonjs" version="0.9.6">tipm-superagent</module>
+        <module platform="commonjs" version="0.1.0">tipm-emitter2</module>
+    </modules>
+</ti:app>

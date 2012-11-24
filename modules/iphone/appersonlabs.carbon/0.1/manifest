@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: A module to allow the native parsing of JSON to create UI
+author: Apperson Labs
+license: Apache2
+copyright: Copyright (c) 2012 by Apperson Labs
+
+
+# these should not be edited
+name: carbon
+moduleid: appersonlabs.carbon
+guid: 153841ac-ef8d-4d93-b5c5-c57043ee570c
+platform: iphone
+minsdk: 2.1.2.GA

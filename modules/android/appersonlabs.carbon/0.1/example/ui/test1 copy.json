@@ -1,0 +1,77 @@
+{
+    "TabGroup": {
+        "backgroundColor": "red",
+        "tabs": [
+            {
+                "Tab": {
+                    "title": "one",
+                    "window": {
+                        "backgroundColor": "white"
+                    }
+                }
+            },
+            {
+                "Tab": {
+                    "title": "two",
+                    "window": {
+                        "backgroundColor": "green",
+                        "children": [
+                        {
+                            "iOSToolbar": {
+                                "top": 0,
+                                "height": 48,
+                                "items": [
+                                    {
+                                        "Button": {
+                                            "title": "test"
+                                        }
+                                    },
+                                    {
+                                        "Button": {
+                                            "title": "test2"
+                                        }
+                                    }
+                                ],
+                                "barColor": "black"
+                            }
+                        }]
+                    }
+                }
+            }
+        ],
+        "children": [
+            {
+                "View": {
+                    "top": 110,
+                    "height": 30,
+                    "width": 30,
+                    "backgroundColor": "yellow"
+                }
+            },
+            {
+                "View": {
+                    "top": 120,
+                    "height": 30,
+                    "width": 30,
+                    "backgroundColor": "blue"
+                }
+            },
+            {
+                "View": {
+                    "top": 130,
+                    "height": 30,
+                    "width": 30,
+                    "backgroundColor": "white"
+                }
+            },
+            {
+                "Button": {
+                    "title": "this button should work",
+                    "id": "testButton",
+                    "bottom": 100,
+                    "height": 30
+                }
+            }
+        ]
+    }
+}

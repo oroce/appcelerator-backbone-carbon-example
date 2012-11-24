@@ -1,0 +1,23 @@
+{
+  "name": "superagent",
+  "repo": "tipm/superagent",
+  "version": "0.9.6",
+  "author": "Christian Sullivan <cs@euforic.co>",
+  "license": "MIT",
+  "description": "Ajax with less suck",
+  "main": "tipm-superagent",
+  "keywords": [
+    "ajax",
+    "api",
+    "xhr"
+  ],
+  "dependencies": {
+    "tipm/emitter2": "0.1.0"
+  },
+  "development": {},
+  "guid": "Ajax with less suck",
+  "minsdk": "2.1.0",
+  "scripts": [
+    "tipm-superagent.js"
+  ]
+}

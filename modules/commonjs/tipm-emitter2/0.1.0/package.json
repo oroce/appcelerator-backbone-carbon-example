@@ -1,0 +1,21 @@
+{
+  "name": "emitter2",
+  "repo": "tipm/emitter2",
+  "version": "0.1.0",
+  "author": "Christian Sullivan <cs@euforic.co>",
+  "license": "MIT",
+  "description": "Event Emitter2 - event emitters extended",
+  "main": "tipm-emitter2",
+  "keywords": [
+    "events",
+    "eventemitter",
+    "emitter"
+  ],
+  "dependencies": {},
+  "development": {},
+  "guid": "xxxxxxxx-xxxxxxxx-xxxxxxxx",
+  "minsdk": "2.1.0",
+  "scripts": [
+    "tipm-emitter2.js"
+  ]
+}
